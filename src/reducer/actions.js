@@ -1,7 +1,5 @@
 import { ADD_TODO, DELETE_TODO } from './actionsNames'
-
 let id = 0
-
 export function addTodo(payload){
     return {
         type: ADD_TODO,
@@ -12,15 +10,9 @@ export function addTodo(payload){
         }
     }
 }
-
 export function deleteTodo(payload){
     return {
         type: DELETE_TODO,
         payload,
     }
 }
-
-
-
-
-
